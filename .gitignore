@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Output files (IMPORTANT for your project)
+output/
+outputs/
+exports/
+*.xlsx
+*.xls
+
+# Temporary files
+tmp/
+temp/
+
+# Watchdog artifacts
+*.swp
+
+# Example/reference directories
+howitshouldlooklike/

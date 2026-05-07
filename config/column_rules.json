@@ -1,0 +1,213 @@
+{
+  "InnographyColumns": {
+    "Patent/ Publication Number": {
+      "aliases": ["Publication Number", "Patent/ Publication Number"],
+      "order": 1
+    },
+    "Application Number": {
+      "aliases": ["Application Number"],
+      "order": 2
+    },
+    "Kind Code": {
+      "aliases": ["Kind Code"],
+      "order": 3
+    },
+    "INPADOC Family ID": {
+      "aliases": ["Extended Family ID", "INPADOC Family ID"],
+      "order": 4
+    },
+    "Simple Family ID": {
+      "aliases": ["Simple Family ID"],
+      "order": 5
+    },
+    "Disclaimed By": {
+      "aliases": ["Disclaimed By"],
+      "order": 6
+    },
+    "Disclaimed To": {
+      "aliases": ["Disclaimed To"],
+      "order": 7
+    },
+    "Status (Active/Expired)": {
+      "aliases": ["Status (Active/Expired)"],
+      "order": 8
+    },
+    "Type (Grant/Application)": {
+      "aliases": ["Source", "Type (Grant/Application)"],
+      "order": 9
+    },
+    "Jurisdiction (US, Non-US)": {
+      "aliases": ["Jurisdiction (US, Non-US)"],
+      "order": 10
+    },
+    "Publication Country": {
+      "aliases": ["Source Jurisdiction", "Publication Country"],
+      "order": 11
+    },
+    "PatentStrength": {
+      "aliases": ["PatentStrength"],
+      "order": 12
+    },
+    "Original Assignee": {
+      "aliases": ["Original Assignee"],
+      "order": 13
+    },
+    "Assignee": {
+      "aliases": ["Assignee"],
+      "order": 14
+    },
+    "Ultimate Parent": {
+      "aliases": ["Ultimate Parent"],
+      "order": 15
+    },
+    "Title": {
+      "aliases": ["Title"],
+      "order": 16
+    },
+    "First Claim": {
+      "aliases": ["First Claim"],
+      "order": 17
+    },
+    "First Claim Word Count": {
+      "aliases": ["First Claim Word Count"],
+      "order": 18
+    },
+    "Priority Date": {
+      "aliases": ["Priority Date"],
+      "order": 19
+    },
+    "Filed Date": {
+      "aliases": ["Filed Date"],
+      "order": 20
+    },
+    "Publish Date": {
+      "aliases": ["Publish Date"],
+      "order": 21
+    },
+    "Est. Expiration Date": {
+      "aliases": ["Est. Expiration Date"],
+      "order": 22
+    },
+    "Number of Backward Citations": {
+      "aliases": ["Number of Backward Citations"],
+      "order": 23
+    },
+    "Number of Forward Citations": {
+      "aliases": ["Number of Forward Citations"],
+      "order": 24
+    },
+    "First CP Classification": {
+      "aliases": ["First CP Classification"],
+      "order": 25
+    },
+    "First US Classification": {
+      "aliases": ["First US Classification"],
+      "order": 26
+    },
+    "First IP Classification": {
+      "aliases": ["First IP Classification"],
+      "order": 27
+    },
+    "Examiner": {
+      "aliases": ["Examiner"],
+      "order": 28
+    },
+    "Art Unit Description": {
+      "aliases": ["Art Unit Description"],
+      "order": 29
+    },
+    "Inventors": {
+      "aliases": ["Inventors"],
+      "order": 30
+    },
+    "Extended Family Members": {
+      "aliases": ["Extended Family Members"],
+      "order": 31
+    },
+    "Active States (Designated)": {
+      "aliases": ["Active States (Designated)"],
+      "order": 32
+    },
+    "Active States (Nationalized)": {
+      "aliases": ["Active States (Nationalized)"],
+      "order": 33
+    },
+    "Expired States (EP Only)": {
+      "aliases": ["Expired States (EP Only)"],
+      "order": 34
+    },
+    "Status Reason": {
+      "aliases": ["Status Reason"],
+      "order": 35
+    },
+    "Litigation Count": {
+      "aliases": ["Litigation Count"],
+      "order": 36
+    }
+  },
+  "FormattingRules": {
+    "header": {
+      "background_color": "E0DCC4",
+      "font": {
+        "name": "Century Gothic",
+        "size": 11,
+        "bold": true
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "wrap_text": true,
+      "column_width": 20,
+      "row_height": 50,
+      "border": {
+        "style": "thin",
+        "color": "000000"
+      }
+    },
+    "cell_format": {
+      "font": {
+        "name": "Century Gothic",
+        "size": 11
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "wrap_text": true,
+      "column_width": 20,
+      "row_height": 50,
+      "number_format": "General"
+    },
+    "default_format": {
+      "column_width": 20,
+      "row_height": 20,
+      "font": {
+        "name": "Century Gothic",
+        "size": 11
+      }
+    },
+    "conditional_formatting": {
+      "rules": [
+        {
+          "column": "PatentStrength",
+          "condition": ">=",
+          "value": "80",
+          "format": {
+            "font_color": "008000",
+            "bold": true
+          }
+        }
+      ]
+    },
+    "column_specific_formatting": {
+      "Patent/ Publication Number": {
+        "font": {
+          "underline": "single",
+          "color": "0000FF"
+        },
+        "style": "Hyperlink"
+      }
+    }
+  }
+}
